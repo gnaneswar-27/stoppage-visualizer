@@ -12,7 +12,16 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import { calculateStoppages } from "./utils/helper.js";
 
+import icon from "leaflet/dist/images/marker-icon.png";
+import L from "leaflet";
+import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
+let DefaultIcon = L.icon({
+  iconUrl: icon,
+  shadowUrl: iconShadow,
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
 
 function App() {
   const [data, setData] = useState([]);
