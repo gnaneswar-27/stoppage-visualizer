@@ -1,6 +1,5 @@
 body {
   font-size: 22px;
-  overflow: hidden;
 }
 
 .poppins-bold {
@@ -34,7 +33,7 @@ body {
 
 footer {
   font-size:x-small;
-  padding: 2px;
+  padding-top: 25px;
   opacity: 70%;
 }
 
