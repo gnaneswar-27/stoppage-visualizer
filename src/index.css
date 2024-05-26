@@ -1,0 +1,50 @@
+body {
+  font-size: 22px;
+  overflow: hidden;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  margin-bottom: 17px;
+  display: flex;
+  justify-content: left;
+}
+
+
+
+.file-input {
+  padding: 8px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+footer {
+  font-size: small;
+  padding: 10px;
+}
+
+.stoppage-lable {
+  margin-left: 40px;
+}
+
+.stoppage-input {
+  padding: 8px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
