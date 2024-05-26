@@ -26,8 +26,6 @@ body {
   justify-content: left;
 }
 
-
-
 .file-input {
   padding: 8px;
   border: 2px solid black;
@@ -47,4 +45,8 @@ footer {
   padding: 8px;
   border: 2px solid black;
   margin-left: 10px;
+}
+
+.leaflet-container {
+  height: 500px !important;
 }
